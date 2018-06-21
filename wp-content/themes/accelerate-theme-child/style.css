@@ -1,0 +1,130 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://example.com/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	Your Name!
+Author URI:   http://example.com
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    margin-bottom: 50px;
+}
+
+#masthead {
+  background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.blog-post {
+	width: 50%;
+	float: left;
+	margin-bottom: 2em;
+}
+
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+.blog-post h2 {
+	font-size: 1.5em;
+}
+
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+#masthead nav ul li {
+  float: left;
+  margin: 0 10px;
+}
+
+/* Case Studies */
+
+article.case-study {
+  margin: 0 0px 0 0;
+}
+
+aside.case-study-sidebar {
+  float: left;
+  width: 314px;
+  margin: 0 40px 0 0;
+}
+
+div.case-study-images {
+  float: left;
+  width: 606px;
+}
+
+div.case-study-images img {
+
+  margin-bottom: 50px;
+  border: 1px solid #dddddd;
+}
+
+.case-study h4 {
+  font-size: 14px;
+  color: grey;
+  font-weight: lighter;
+}
+
+.case-study h3 {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.case-study h3,
+.case-study h4 {
+  margin: 0;
+  margin-bottom: .5rem;
+}
+
+/* Case Studies on homepage */
+
+.featured-work h4 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0;
+}
+
+.featured-work ul {
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+
+
+}
+
+.featured-work li {
+  text-align: center;
+  display: inline-block;
+  margin: 30px;
+
+}
+
+.featured-work li a {
+    text-align: center;
+}
+
+.site-content,
+.homepage-featured-work {
+  justify-content: center;
+}
+
+.featured-work h6 {
+  font-size: 13px;
+  text-align: center;
+}
