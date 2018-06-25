@@ -128,3 +128,27 @@ div.case-study-images img {
   font-size: 13px;
   text-align: center;
 }
+
+/*Case Study Archive Page */
+
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+}
+
+._mi {
+  background: black;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 3px;
+
+}
+
+.social-media-navigation li  {
+    display: inline-block;
+    float: right;
+    text-align: center;
+    margin-right: 10px;
+}
