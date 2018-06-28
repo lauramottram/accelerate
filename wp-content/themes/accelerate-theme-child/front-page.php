@@ -65,6 +65,25 @@ get_header(); ?>
 				<?php wp_reset_query(); ?>
 			</div>
 		</div>
+
+
+<!-- Dynamic sidebar -->
+		<div class="site-content twitter" style="width: 500px;">
+			<div class="twitter-posts">
+			<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+				<div id="secondary" class="widget-area twitter-feed" role="complementary">
+					<h4>Recent Posts</h4>
+					<?php dynamic_sidebar( 'sidebar-2' ); ?>
+					<div class="read-more-link"> <a href="http://twitter.com">
+						<span>Follow us</span>
+						 › </a>
+					 </div>
+				</div>
+				<?php endif; ?>
+			</div>
+		</div>
 	</section>
+
+
 
 <?php get_footer(); ?>

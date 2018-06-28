@@ -152,3 +152,111 @@ div.case-study-images img {
     text-align: center;
     margin-right: 10px;
 }
+
+/* Contact Us page */
+
+input[type="button"],
+input[type="submit"] {
+  float: right;
+  background: #45ac9d;
+}
+
+.page-id-47351 #primary.site-content {
+  width: 30%;
+
+}
+
+.top_form
+ {
+  display: inline-block;
+  width: 45%;
+}
+
+#nf-field-1-wrap {
+  margin-right: 15px;
+}
+
+#nf-field-1-wrap
+
+
+#nf-field-3 {
+  border-color: #BFBFBF;
+  }
+
+/* Image alignment */
+
+  img.alignright { float: right; margin: 0 0 1em 1em; }
+  img.alignleft { float: left; margin: 0 1em 1em 0; }
+  img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+  .alignright { float: right; }
+  .alignleft { float: left; }
+  .aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
+  /* About page */
+
+.about-intro {
+  text-align: center;
+}
+
+.about-intro h2 {
+  text-transform: uppercase;
+  font-size: .9rem;
+}
+
+.about-intro p {
+  font-size: .9rem;
+  margin: 0;
+}
+
+.about-button span {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+/* 404 page */
+
+.lost-page {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.lost-page h2 {
+  text-transform: uppercase;
+}
+
+.lost-page p,
+.lost-page h2 {
+  font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+}
+
+/* Twitter widget */
+
+.recent-posts {
+  display: flex;
+  justify-content: center;
+}
+
+.twitter-feed h4 {
+font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+color: #a6a6a6;
+text-transform: uppercase;
+margin: 2em 0 .5em;
+}
+
+.twitter-feed h2{
+  h2 {
+    font-size: 1.5em;
+}
+
+.twitter-feed span {
+  padding-bottom: 34px;
+}
+
+.tweets li {
+  list-style-type:none
+}
+
+.blog-post {
+  width: 500px;
+}
