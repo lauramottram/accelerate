@@ -374,11 +374,10 @@ body {
 	text-decoration: underline;
 }
 #sidebar .widget_search {
-	border-bottom: 1px solid #BFBFBF;
 	padding: 1.75em 1.8em;
 }
 #sidebar .widget_search input[type="text"] {
-	width: 79%;
+	width: 87%;
 	font: .875em/1.75em 'Open Sans', Arial, sans-serif;
 	font-style: italic;
 	border-top: 1px solid #a6a6a6;
